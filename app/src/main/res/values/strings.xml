@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Zecorder</string>
+
+    <string name="facebook_app_id">636414803521202</string>
+    <string name="fb_login_protocol_scheme">fb636414803521202</string>
+
+    <!--Video settings-->
+    <string name="setting_video_bitrate">setting_video_bitrate</string>
+    <string name="setting_video_resolution">setting_video_resolution</string>
+    <string name="setting_video_fps">setting_video_fps</string>
+
+    <!--Camera settings-->
+    <string name="setting_camera_mode">setting_camera_mode</string>
+    <string name="setting_camera_position">setting_camera_position</string>
+    <string name="setting_camera_size">setting_camera_size</string>
+
+    <!--Audio settings-->
+    <string name="setting_audio_source">setting_audio_source</string>
+
+
+    <!--Common Setting-->
+    <string name="setting_common_orientation">setting_common_orientation</string>
+    <string name="setting_common_countdown">setting_common_countdown</string>
+
+    <!--Default setting-->
+    <string name="default_setting_resolution">Default</string>
+    <string name="default_setting_bitrate">-1</string>
+    <string name="default_setting_fps">30</string>
+    <string name="default_setting_countdown">3</string>
+    <string name="default_setting_orientation">Auto</string>
+    <string name="default_camera_mode">Front</string>
+    <string name="default_camera_position">Bottom Right</string>
+    <string name="default_camera_size">Medium</string>
+    <string name="default_audio_source">Microphone</string>
+    <string name="file_created">File created</string>
+    <string name="file_create_error">File create error</string>
+    <string name="pref_drive_folderId">pref_drive_folderId</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="video_resolution">Video Resolution</string>
+    <string name="bitrate">Bitrate</string>
+    <string name="frame_rate">Frame rate</string>
+    <string name="_1080p_hd">1080p (HD)</string>
+    <string name="_720p_hd">720p (HD)</string>
+    <string name="_480p_hd">480p (SD)</string>
+    <string name="_360p_hd">360p (SD)</string>
+    <string name="settings">Settings</string>
+    <string name="how_to_record_your_screen">How to record your screen</string>
+    <string name="upgrade_to_pro">Upgrade to Pro</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="available_storage_2_43gb">Available Storage: 2,43GB</string>
+    <string name="recording_cache_0_kb">Recording Cache: 0 KB</string>
+    <string name="support_us_by_rating_our_app">Support us by rating our app</string>
+    <string name="contact_us">Contact us</string>
+    <string name="personalized_ads_off">Personalized Ads: Off</string>
+    <string name="label_permissions">Please enable Microphone and Storage permissions.</string>
+    <string name="faq">FAQ</string>
+    <string name="before_starting_your_screen_recording_make_sure_your_phone_is_not_in_slient_mode_and_the_volume_is_on_some_apps_do_not_allow_the_sound_to_be_recorded_and_it_is_a_limitation_we_cannot_bypass">Before starting your screen recording,make sure your phone is not in slient mode and the volume is on. Some apps do not allow the sound to be recorded, and it is a limitation we cannot bypass.</string>
+    <string name="sound_is_not_working">Sound is not working</string>
+    <string name="title_activity_react_cam">ReactCamActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

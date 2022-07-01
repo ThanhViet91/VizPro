@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/shape_round_gray">
+
+    <RelativeLayout
+        android:id="@+id/rl_head_faq"
+        android:minHeight="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_question"
+            style="@style/Title_Box_Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:text="@string/sound_is_not_working" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/ic_up"
+            android:src="@drawable/ic_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/ic_down"
+            android:src="@drawable/ic_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_answer"
+        style="@style/Body_List_Item_Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:text="@string/before_starting_your_screen_recording_make_sure_your_phone_is_not_in_slient_mode_and_the_volume_is_on_some_apps_do_not_allow_the_sound_to_be_recorded_and_it_is_a_limitation_we_cannot_bypass" />
+
+</LinearLayout>

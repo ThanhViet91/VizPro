@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+
+
+    <style name="White_Text">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Black_Text">
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Title_Box_White" parent="White_Text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="Body_List_Item_White" parent="White_Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+    </style>
+
+    <style name="Title_Box_Black" parent="Black_Text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+    </style>
+
+    <style name="Body_List_Item_Black" parent="Black_Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+    </style>
+</resources>
