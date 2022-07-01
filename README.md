@@ -1,6 +1,6 @@
-# Zecorder
+# VizPro
 ```
- Android screen recording and streaming application
+ Android screen recording, streaming, video editor application
 ```
 ## Features
 ### 1. SCREEN RECORDING
