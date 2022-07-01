@@ -96,7 +96,7 @@ cd srs/trunk
 <strong>Step 1:</strong> get app source 
 
 <pre>
-git clone https://github.com/1612052/Zecorder.git
+git clone https://github.com/ThanhViet91/VizPro
 </pre>
 
 <strong>Step 2:</strong> Build and run application
@@ -107,13 +107,6 @@ git clone https://github.com/1612052/Zecorder.git
 - Tap "Test" button
 - Tap "Connect" button
 - Enjoy!!!
-
-### * Video guide/demo:
-
-- <strong>Server: </strong> [server side](https://studenthcmusedu-my.sharepoint.com/:v:/g/personal/1612052_student_hcmus_edu_vn/Ec0BYU6ZfVpLluCufBeL8lcBnr9yVoRiXp-EKN6Z-UAdmg?e=rmi8TO)
-
-- <strong>App : </strong> [client side](https://studenthcmusedu-my.sharepoint.com/:v:/g/personal/1612052_student_hcmus_edu_vn/EUvwFO83bc9Dp7TRqRS3glwBWG7AC_dvyB3VcS8zEshL5g?e=6JGrNw)
-
 
 
 
